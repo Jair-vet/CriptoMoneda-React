@@ -26,7 +26,7 @@ const Formulario = () => {
         { codigo: 'MXN',nombre: 'MXN' },
         { codigo: 'EUR',nombre: 'EUR' },
         { codigo: 'GBP',nombre: 'GBP' },
-        { codigo: 'CAD',nombre: 'CAD' },
+        { codigo: 'CAD',nombre: 'CADA' },
         
     ]
 

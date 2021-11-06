@@ -9,8 +9,10 @@ const useMoneda = (label, stateInicial, opciones) => {
         // Cuerpo del hook
         <Fragment>
             <label>{label}</label>
-            <select>
-                <option value="MXN">Seleccione</option>
+            <select
+                onChange={ e => actualizarSatate(e.target.value) }
+            >
+                <option value="MXN">Seleccionar</option>
                 {opciones.map(opcion => (
                     <option key={opcion.codigo} value={opcion.codigo}>{opcion.nombre}</option>
                 ))}

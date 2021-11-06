@@ -11,6 +11,7 @@ const useMoneda = (label, stateInicial, opciones) => {
             <label>{label}</label>
             <select
                 onChange={ e => actualizarSatate(e.target.value) }
+                value={state}
             >
                 <option value="MXN">Seleccionar</option>
                 {opciones.map(opcion => (

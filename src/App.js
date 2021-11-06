@@ -20,7 +20,7 @@ const Imagen = styled.img`
   margin-top: 5rem;
 `;
 const Heading = styled.h1`
-  font-family: Courier New, Monaco, Consolas, monospace;
+  font-family: 'Bebas Neue', cursive;
   color: #FFF;
   text-align:left;
   font-weight: 700;

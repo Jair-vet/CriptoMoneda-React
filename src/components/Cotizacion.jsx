@@ -13,16 +13,8 @@ const ResultadoDiv = styled.div`
     
 `;
 
-const Info = styled.p`
-    font-size: 18px;
-    span {
-        font-weight:bold;
-        color: #006400;
-    }
-`;
-
 const InfoPrecioAlto = styled.p`
-    font-size: 18px;
+    font-size: 20px;
     color: #dc143c;
     span {
         color: #00ff00;
@@ -30,7 +22,7 @@ const InfoPrecioAlto = styled.p`
     }
 `;
 const InfoPrecioBajo = styled.p`
-    font-size: 18px;
+    font-size: 20px;
     color: #ffff00;
     span {
         color: #00ff00;

@@ -35,7 +35,7 @@ const useMoneda = (label, stateInicial, opciones) => {
                 onChange={ e => actualizarSatate(e.target.value) }
                 value={state}
             >
-                <option value="MXN">-Seleccione-</option>
+                <option value="">- Seleccione -</option>
                 {opciones.map(opcion => (
                     <option key={opcion.codigo} value={opcion.codigo}>{opcion.nombre}</option>
                 ))}

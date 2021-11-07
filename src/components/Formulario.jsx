@@ -34,7 +34,7 @@ const Formulario = ({guardarMoneda, guardarCriptoMoneda}) => {
         { codigo: 'MXN',nombre: 'MXN' },
         { codigo: 'EUR',nombre: 'EUR' },
         { codigo: 'GBP',nombre: 'GBP' },
-        { codigo: 'CAD',nombre: 'CADA' },
+        { codigo: 'CAD',nombre: 'CAD' },
         
     ]
 
